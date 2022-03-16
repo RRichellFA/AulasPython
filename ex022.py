@@ -1,0 +1,6 @@
+nome = input('Escreva seu nome completo:').strip()
+palavras = nome.split()
+print('Nome completo em maiúsculas:', nome.upper())
+print('Nome completo em minúsculas:', nome.lower())
+print('Seu nome todo tem', len(''.join(palavras)), 'letras.')
+print('Seu primeiro nome tem', len(palavras[0]), 'letras.')
